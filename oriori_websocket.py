@@ -14,8 +14,8 @@ import time
 import json
 import hashlib
 
-apikeypair= ("api_key","eca729c5-cbf5-4333-8476-56bd0bb1009f")
-apikey = "eca729c5-cbf5-4333-8476-56bd0bb1009f"
+apikeypair= ("api_key","*******************************")
+apikey = "***************************************"
 order_numbers = []
 
 def get_sign(params):
