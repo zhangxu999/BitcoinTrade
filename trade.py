@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 '''
-apiKey:  eca729c5-cbf5-4333-8476-56bd0bb1009f
-secretKey:  346BD975D145C1686705BB07411ADEFC
 
 '''
 import asyncio
@@ -10,8 +8,8 @@ import datetime
 import json
 import hashlib
 
-apikeypair= ("api_key","eca729c5-cbf5-4333-8476-56bd0bb1009f")
-apikey = "eca729c5-cbf5-4333-8476-56bd0bb1009f"
+apikeypair= ("api_key","**************************")
+apikey = "*********************************"
 
 def get_sign(params):
     sign_str = '&'.join([k+'='+v for k,v in sorted(params)])+'&secret_key=346BD975D145C1686705BB07411ADEFC'
